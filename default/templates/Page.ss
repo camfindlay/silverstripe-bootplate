@@ -10,9 +10,9 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 		<% base_tag %>
-		<link rel="stylesheet" href="themes/default/css/bootstrap.min.css">
-		<link rel="stylesheet" href="themes/default/css/main.css">
-		<script src="themes/default/js/modernizr-2.6.2.min.js"></script>
+		<link rel="stylesheet" href="$ThemeDir/css/bootstrap.min.css">
+		<link rel="stylesheet" href="$ThemeDir/css/main.css">
+		<script src="$ThemeDir/js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
 
@@ -35,9 +35,9 @@
 			<footer class="row main-footer" id="Footer"></footer>
 		</div>
 
-		<script src="themes/default/js/jquery-1.8.2.min.js"></script>
-		<script src="themes/default/js/bootstrap.min.js"></script>
-		<script async src="themes/default/js/main.js"></script>
+		<script src="$ThemeDir/js/jquery-1.8.2.min.js"></script>
+		<script src="$ThemeDir/js/bootstrap.min.js"></script>
+		<script src="$ThemeDir/js/main.js" async></script>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
