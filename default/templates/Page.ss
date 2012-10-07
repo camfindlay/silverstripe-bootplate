@@ -19,11 +19,11 @@
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 
-		$Layout
+		<div class="row" id="Main">$Layout</div>
 
 		<script src="themes/default/js/jquery-1.8.2.min.js"></script>
 		<script src="themes/default/js/bootstrap.min.js"></script>
-		<script async src="themes/default/main.js"></script>
+		<script async src="themes/default/js/main.js"></script>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
