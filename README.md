@@ -12,7 +12,9 @@ It's designed to save time and to do the bare minimum to get your frontend ready
 2. Enjoy
 
 ## License
-Free as in beer.
+- This mashup is free as in beer, with the following exceptions:
+- Twitter Bootstrap is subject to [its own license](http://www.apache.org/licenses/LICENSE-2.0).
+- HTML5 Boilerplate is subject to [its own license](https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.md).
 
 ## Thanks
 1. HTML5 Boilerplate
