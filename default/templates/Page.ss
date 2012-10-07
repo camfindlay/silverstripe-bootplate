@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> | $SiteConfig.SiteTitle</title>
+		<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> | $SiteConfig.Title<% if SiteConfig.Tagline %> - $SiteConfig.Tagline<% end_if %></title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 		<% base_tag %>
@@ -15,11 +15,25 @@
 		<script src="themes/default/js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
-		<!--[if lt IE 7]>
-			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-		<![endif]-->
 
-		<div class="row" id="Main">$Layout</div>
+		<div class="container" id="Container">
+			<!--[if lt IE 7]>
+				<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+			<![endif]-->
+			<header class="row main-header" id="Header">
+				<h2>$SiteConfig.Title</h2>
+				<% if SiteConfig.Tagline %><p>$SiteConfig.Tagline</p><% end_if %>
+			</header>
+			<nav class="row main-nav" id="Nav">
+				<ul>
+				<% control Menu(1) %>
+				<li class="$LinkingMode"><a href="$Link">$MenuTitle</a></li>
+				<% end_control %>
+				</ul>
+			</nav>
+			<div class="row main-body" id="Main">$Layout</div>
+			<footer class="row main-footer" id="Footer"></footer>
+		</div>
 
 		<script src="themes/default/js/jquery-1.8.2.min.js"></script>
 		<script src="themes/default/js/bootstrap.min.js"></script>
