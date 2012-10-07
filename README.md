@@ -1,4 +1,4 @@
-# Bootplate
+# Bootplate (by @willmorgan)
 Bootplate is a mashup of the best parts from Bootstrap and Boilerplate that combines them in to a SilverStripe theme. This is ideal for development - clone to your new project and then take it from there.
 
 It's designed to save time and to do the bare minimum to get your frontend ready for development, so nothing here should need to be edited (much) to move forward with your app's design.
@@ -12,9 +12,10 @@ It's designed to save time and to do the bare minimum to get your frontend ready
 2. Enjoy
 
 ## License
-- This mashup is free as in beer, with the following exceptions:
-- Twitter Bootstrap is subject to [its own license](http://www.apache.org/licenses/LICENSE-2.0).
-- HTML5 Boilerplate is subject to [its own license](https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.md).
+What? Don't be silly. But, honestly:
+- The mashup itself is free as in beer, but:
+  - Twitter Bootstrap is subject to [its own license](http://www.apache.org/licenses/LICENSE-2.0).
+  - HTML5 Boilerplate is subject to [its own license](https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.md).
 
 ## Thanks
 1. HTML5 Boilerplate
