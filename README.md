@@ -10,6 +10,9 @@ It's designed to save time and to do the bare minimum to get your frontend ready
 ## Instructions
 1. Copy default/ directory to themes
 2. Enjoy
+3. Bonus: have a look through the sample .htaccess rules and choose the ones you want, then move them in to your site's root .htaccess file.
+
+Don't forget to customise your typography and fonts in the typography.css file, so that your content authors and clients can get a good example of what their webpages will look like while editing in the CMS.
 
 ## License
 What? Don't be silly. But, honestly:

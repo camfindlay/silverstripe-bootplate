@@ -7,9 +7,9 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> | $SiteConfig.Title<% if SiteConfig.Tagline %> - $SiteConfig.Tagline<% end_if %></title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width">
+		$MetaTags(false)
 		<% base_tag %>
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="$ThemeDir/css/bootstrap.min.css">
 		<link rel="stylesheet" href="$ThemeDir/css/main.css">
 		<script src="$ThemeDir/js/modernizr-2.6.2.min.js"></script>
@@ -35,6 +35,7 @@
 			<footer class="row main-footer" id="Footer"></footer>
 		</div>
 
+		<!-- Be sure to use Requirements::combine_files with these JS includes when you go live! -->
 		<script src="$ThemeDir/js/jquery-1.8.2.min.js"></script>
 		<script src="$ThemeDir/js/bootstrap.min.js"></script>
 		<script src="$ThemeDir/js/main.js" async></script>
