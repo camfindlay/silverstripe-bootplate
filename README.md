@@ -1,18 +1,22 @@
-# Bootplate (by @willmorgan)
+# SilverStripe Bootplate
 Bootplate is a mashup of the best parts from Bootstrap and Boilerplate that combines them in to a SilverStripe theme. This is ideal for development - clone to your new project and then take it from there.
 
 It's designed to save time and to do the bare minimum to get your frontend ready for development, so nothing here should need to be edited (much) to move forward with your app's design.
 
-## Todo:
-1. Figure out how to get minification without requiring its definition inside Controller::init
-2. Remove bloat
-
-## Instructions
+## Usage Instructions
 1. Copy default/ directory to themes
 2. Enjoy
 3. Bonus: have a look through the sample .htaccess rules and choose the ones you want, then move them in to your site's root .htaccess file.
 
 Don't forget to customise your typography and fonts in the typography.css file, so that your content authors and clients can get a good example of what their webpages will look like while editing in the CMS.
+
+## Compatibility:
+- SilverStripe 3.0+
+- Backward compatibility with 2.4 is easy - just switch <% loop %> for <% control %> and you're done.
+
+## Todo:
+1. Figure out how to get minification without requiring its definition inside Controller::init
+2. Remove bloat
 
 ## License
 What? Don't be silly. But, honestly:
