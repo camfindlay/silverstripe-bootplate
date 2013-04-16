@@ -26,9 +26,9 @@
 			</header>
 			<nav class="row main-nav" id="Nav">
 				<ul>
-				<% control Menu(1) %>
+				<% loop Menu(1) %>
 				<li class="$LinkingMode"><a href="$Link">$MenuTitle</a></li>
-				<% end_control %>
+				<% end_loop %>
 				</ul>
 			</nav>
 			<div class="row main-body" id="Main">$Layout</div>
