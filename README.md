@@ -11,8 +11,8 @@ It's designed to save time and to do the bare minimum to get your frontend ready
 Don't forget to customise your typography and fonts in the typography.css file, so that your content authors and clients can get a good example of what their webpages will look like while editing in the CMS.
 
 ## Compatibility:
-- SilverStripe 3.0+
-- Backward compatibility with 2.4 is easy - just switch <% loop %> for <% control %> and you're done.
+- SilverStripe 3.x (branch "master")
+- SilverStripe 2.4 (branch "2.4")
 
 ## Todo:
 1. Figure out how to get minification without requiring its definition inside Controller::init
