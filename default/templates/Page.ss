@@ -36,7 +36,7 @@
 		</div>
 
 		<!-- Be sure to use Requirements::combine_files with these JS includes when you go live! -->
-		<script src="$ThemeDir/js/jquery-1.8.2.min.js"></script>
+		<script src="$ThemeDir/js/jquery-1.9.1.min.js"></script>
 		<script src="$ThemeDir/js/bootstrap.min.js"></script>
 		<script src="$ThemeDir/js/main.js" async></script>
 
