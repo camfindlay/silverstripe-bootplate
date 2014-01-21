@@ -5,8 +5,8 @@ It's designed to save time and to do the bare minimum to get your frontend ready
 
 ## Usage Instructions
 1. Clone this repository and then merge over your SilverStripe's www directory, or clone directly depending on your preference.
-2. ...and you're done.
-3. Bonus: have a look through the sample .htaccess rules and choose the ones you want, then move them in to your site's root .htaccess file.
+2. If you are using a stock .htaccess file, you are encouraged to use .htaccess.dist for improved Apache performance. If not, then merge in your changes manually.
+3. You're done!
 
 Don't forget to customise your typography and fonts in the typography.css file, so that your content authors and clients can get a good example of what their webpages will look like while editing in the CMS.
 
