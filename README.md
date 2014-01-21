@@ -12,7 +12,6 @@ Don't forget to customise your typography and fonts in the typography.css file, 
 
 ## Compatibility:
 - SilverStripe 3.x (branch "master")
-- SilverStripe 2.4 (branch "2.4")
 
 ## Todo:
 1. Figure out how to get minification without requiring its definition inside Controller::init
@@ -31,4 +30,3 @@ What? Don't be silly. But, honestly:
 
 ## Mashed together by
 [@willmorgan](//twitter.com/willmorgan)
-
